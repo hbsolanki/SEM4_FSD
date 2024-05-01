@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Write script to define two JSON OBJ div1 and div2 having an array to store names of student this name should be sorted alpha in THe OBJect and both div obj should be visible with sorted name in one file
+
+      let test = {
+        div1: {
+          name: ["A", "X", "B"],
+        },
+        div2: {
+          name: ["Y", "C", "Z"],
+        },
+      };
+      arr = [];
+      for (i in test.div1.name) {
+        arr.push(test.div1.name[i]);
+      }
+      for (i in test.div2.name) {
+        arr.push(test.div2.name[i]);
+      }
+      arr = arr.sort();
+      for (i in arr) {
+        console.log(arr[i]);
+      }
+    </script>
+  </body>
+</html>

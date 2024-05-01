@@ -1,0 +1,7 @@
+{
+  "student": [
+    { "name": "xyz", "age": 20 },
+    { "name": "pqr", "age": 21 },
+    { "name": "abc", "age": 22 }
+  ]
+}

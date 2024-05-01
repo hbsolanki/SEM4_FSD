@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="myid"></div>
+    <script>
+      //   var obj = {
+      //     name: "hardik",
+      //     num: 150,
+      //   };
+      //   //   var name = obj["name"];
+      //   //   var num = obj["num"];
+      //   //   document.getElementById("myid").innerHTML =
+      //   //     "name : " + name + "<br> number : " + num;
+
+      //   for (let i in obj) {
+      //     document.getElementById("myid").innerHTML += i + ": <br>";
+      //     document.getElementById("myid").innerHTML += obj[i] + "<br>";
+      //   }
+
+      // let obj = {
+      //   name: "jenil",
+      //   address: {
+      //     course1: "FSD2",
+      //     course2: "COA",
+      //   },
+      //   city: "Ahmedabad",
+      // };
+
+      // let jsonObj = {
+      //   IPL: [
+      //     { TeamName: "CSK", Player: "MSD" },
+      //     { TeamName: "RCB", Player: "VK" },
+      //     { TeamName: "GT", Player: "SG" },
+      //   ],
+      // };
+      // for (i in jsonObj.IPL) {
+      //   for (j in i) {
+      //     console.log(jsonObj);
+      //   }
+      // }
+
+      // let jsonObj = {
+      //   FIFA: [
+      //     {
+      //       country: "Brazil",
+      //       player: "xyz",
+      //     },
+      //     {
+      //       country: "Purtugal",
+      //       player: "PQR",
+      //     },
+      //     {
+      //       country: "Argentina",
+      //       player: "ABC",
+      //     },
+      //   ],
+      // };
+
+      // for (let i in jsonObj.FIFA) {
+      //   for (let j in jsonObj.FIFA[i]) {
+      //     console.log(jsonObj.FIFA[i][j]);
+      //   }
+      // }
+
+      var obj = '{"name":"XYZ","age":23,"dob":"2024-`03-20"}';
+      var data = JSON.parse(obj);
+      console.log(data);
+
+      //casting to date object is not mandatory you can directly print date in string formate as given if you cast date obj it will give ISD Formate
+    </script>
+  </body>
+</html>
